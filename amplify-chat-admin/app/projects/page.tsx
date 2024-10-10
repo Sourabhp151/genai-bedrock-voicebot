@@ -25,24 +25,6 @@ export default function Page() {
       description: 'White-labeled Chatbots powered by Amazon Bedrock and Kendra!',
       content: 'Create and share chatbot link with customers to evaluate for a weak. The chatbot crawls customer site and indexes the content including PDFs.',
       footer: <Link href="/projects/qchat" >Link <ArrowRightCircleIcon className="w-6" /></Link>
-    },
-    {
-      title: 'AWS IP Range Details',
-      description: 'Check the AWS Service and Region, that a particular AWS IP Address belongs to.',
-      content: 'Get a filtered list of IP Ranges by Region + Service name. Also, get a list of IP Ranges that a particular IP address is part of.',
-      footer: <Link href="/demos/iprange" >Link <ArrowRightCircleIcon className="w-6" /></Link>
-    },
-    {
-      title: 'Project Acumen (WIP)',
-      description: 'Work in Progress...',
-      content: 'Visualize VPC Flowlogs in a graphical GUI to get a visibility into network traffic patterns.',
-      footer: <Link href="/projects/acumen" >Link <ArrowRightCircleIcon className="w-6" /></Link>
-    },
-    {
-      title: 'Cloudfront as API Gateway',
-      description: 'Authorize with JWTToken, cache content and allow Origin to issue tokens in same API call.',
-      content: 'If you want a single API endpoint that allows periodic automated refresh of JWTTokens to access restricted content cached in CDN.',
-      footer: <Link href="/demos/mmi-cdn" >Link <ArrowRightCircleIcon className="w-6" /></Link>
     }
   ]
 

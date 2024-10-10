@@ -108,7 +108,7 @@ export default function Page() {
   return (
     <main>
       <div className="hidden md:block sm:text-lg md:text-2xl text-bold bg-blue-600 text-white p-8 rounded-lg w-full mb-4 sm:mb-2 sm:p-2">
-        White-labeled Chatbots powered by Amazon Bedrock and Kendra!
+        BotBuddy - Smart, Fast, and Always Ready to Assist!
       </div>
       {/* <Button onClick={() => handleSubmission({ dummy: "data" })}>
         TESTING

@@ -21,9 +21,9 @@ export default function Page() {
 
   const projects = [
     {
-      title: 'QChat',
-      description: 'White-labeled Chatbots powered by Amazon Bedrock and Kendra!',
-      content: 'Create and share chatbot link with customers to evaluate for a weak. The chatbot crawls customer site and indexes the content including PDFs.',
+      title: 'BotBuddy',
+      description: 'Smart, Fast, and Always Ready to Assist!',
+      content: ' The chatbot crawls a customer’s website, indexes the content, including PDFs, and enables quick retrieval of information.',
       footer: <Link href="/projects/qchat" >Link <ArrowRightCircleIcon className="w-6" /></Link>
     }
   ]

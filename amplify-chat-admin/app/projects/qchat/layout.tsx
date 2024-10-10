@@ -8,7 +8,7 @@ function Layout(
 ) {
     const { dispatch } = useUser();
     useEffect(() => {
-        dispatch({ type: "SETPROJECT", payload: { projectName: "Project QChat" } })
+        dispatch({ type: "SETPROJECT", payload: { projectName: "Project BotBuddy" } })
     }, [])
     return (
         <>
